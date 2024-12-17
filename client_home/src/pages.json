@@ -1,0 +1,369 @@
+{
+	"topWindow": {
+		"path": "windows/page_header.vue",
+		"style": {
+			"height": "60px"
+		},
+		"matchMedia": {
+			"minWidth": 1200 //生效条件，当窗口宽度大于768px时显示
+		}
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/webview/webview",
+			"style" :
+			{
+				"navigationBarTitleText": "网址跳转"
+			}
+		},
+		{
+			"path": "pages/comment/edit",
+			"style": {
+				"navigationBarTitleText": "评论"
+			}
+		},
+		{
+			"path": "pages/media/music",
+			"style": {
+				"navigationBarTitleText": "音乐",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/image",
+			"style": {
+				"navigationBarTitleText": "图片预览",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/media/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"backgroundColor": "#000000"
+			}
+		}, {
+			"path": "pages/account/forgot",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/account/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/account/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "美食资讯"
+			}
+		},{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "美食资讯列表"
+			}
+		}, {
+			"path": "pages/article/details",
+			"style": {
+				"navigationBarTitleText": "美食资讯详情"
+			}
+		},
+		{
+			"path": "pages/goods/list",
+			"style": {
+				"navigationBarTitleText": "产品展示"
+			}
+		}, {
+			"path": "pages/goods/details",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			}
+		}, {
+			"path": "pages/cart/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/cart/list",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}, {
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "pages/order/list",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "pages/order/details",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}, {
+			"path": "pages/pay/index",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+		{
+			"path": "pages/user/address",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		}, {
+			"path": "pages/user/address_edit",
+			"style": {
+				"navigationBarTitleText": "收货地址管理"
+			}
+		},
+		{
+			"path": "pages/notice/list",
+			"style": {
+				"navigationBarTitleText": "公告消息列表"
+			}
+		},
+		{
+			"path": "pages/notice/details",
+			"style": {
+				"navigationBarTitleText": "公告消息"
+			}
+		},
+										// 餐品信息列表路由
+		{
+			"path": "pages/food_information/list",
+			"style": {
+				"navigationBarTitleText": "餐品信息列表"
+			}
+		},
+				// 餐品信息详情路由
+		{
+			"path": "pages/food_information/details",
+			"style": {
+				"navigationBarTitleText": "餐品信息"
+			}
+		},
+					// 我的好友列表路由
+		{
+			"path": "pages/my_friend/list",
+			"style": {
+				"navigationBarTitleText": "我的好友列表"
+			}
+		},
+						// 订单状态列表路由
+		{
+			"path": "pages/order_status/list",
+			"style": {
+				"navigationBarTitleText": "订单状态列表"
+			}
+		},
+									// 餐品推荐列表路由
+		{
+			"path": "pages/food_recommendation/list",
+			"style": {
+				"navigationBarTitleText": "餐品推荐列表"
+			}
+		},
+				// 餐品推荐详情路由
+		{
+			"path": "pages/food_recommendation/details",
+			"style": {
+				"navigationBarTitleText": "餐品推荐"
+			}
+		},
+					// 评论信息列表路由
+		{
+			"path": "pages/comment_information/list",
+			"style": {
+				"navigationBarTitleText": "评论信息列表"
+			}
+		},
+					// 注册用户列表路由
+		{
+			"path": "pages/registered_users/table",
+			"style": {
+				"navigationBarTitleText": "注册用户列表"
+			}
+		},
+		// 注册用户编辑路由
+		{
+			"path": "pages/registered_users/view",
+			"style": {
+				"navigationBarTitleText": "注册用户详情"
+			}
+		},
+				// 卖家列表路由
+		{
+			"path": "pages/seller/table",
+			"style": {
+				"navigationBarTitleText": "卖家列表"
+			}
+		},
+		// 卖家编辑路由
+		{
+			"path": "pages/seller/view",
+			"style": {
+				"navigationBarTitleText": "卖家详情"
+			}
+		},
+					// 我的好友列表路由
+		{
+			"path": "pages/my_friend/table",
+			"style": {
+				"navigationBarTitleText": "我的好友列表"
+			}
+		},
+		// 我的好友编辑路由
+		{
+			"path": "pages/my_friend/view",
+			"style": {
+				"navigationBarTitleText": "我的好友详情"
+			}
+		},
+				// 订单状态列表路由
+		{
+			"path": "pages/order_status/table",
+			"style": {
+				"navigationBarTitleText": "订单状态列表"
+			}
+		},
+		// 订单状态编辑路由
+		{
+			"path": "pages/order_status/view",
+			"style": {
+				"navigationBarTitleText": "订单状态详情"
+			}
+		},
+				// 营业分析列表路由
+		{
+			"path": "pages/business_analysis/table",
+			"style": {
+				"navigationBarTitleText": "营业分析列表"
+			}
+		},
+		// 营业分析编辑路由
+		{
+			"path": "pages/business_analysis/view",
+			"style": {
+				"navigationBarTitleText": "营业分析详情"
+			}
+		},
+				// 餐品推荐列表路由
+		{
+			"path": "pages/food_recommendation/table",
+			"style": {
+				"navigationBarTitleText": "餐品推荐列表"
+			}
+		},
+		// 餐品推荐编辑路由
+		{
+			"path": "pages/food_recommendation/view",
+			"style": {
+				"navigationBarTitleText": "餐品推荐详情"
+			}
+		},
+				// 评论信息列表路由
+		{
+			"path": "pages/comment_information/table",
+			"style": {
+				"navigationBarTitleText": "评论信息列表"
+			}
+		},
+		// 评论信息编辑路由
+		{
+			"path": "pages/comment_information/view",
+			"style": {
+				"navigationBarTitleText": "评论信息详情"
+			}
+		},
+			{
+			"path": "pages/user/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		}, {
+			"path": "pages/user/info",
+			"style": {
+				"navigationBarTitleText": "基本信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长盛",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#3388FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home_a.png",
+				"selectedIconPath": "static/img/home_b.png"
+			},
+			{
+				"pagePath": "pages/cart/index",
+				"text": "购物车",
+				"iconPath": "static/img/cart_a.png",
+				"selectedIconPath": "static/img/cart_b.png"
+			},
+			{
+				"pagePath": "pages/article/index",
+				"text": "美食资讯",
+				"iconPath": "static/img/article_a.png",
+				"selectedIconPath": "static/img/article_b.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "static/img/my_a.png",
+				"selectedIconPath": "static/img/my_b.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^mm_(.*)": "@/components/mm_vue_ui/base/mm_$1.vue"
+		}
+	}
+}
